@@ -1,0 +1,39 @@
+.card {
+  display: block;
+  text-decoration: none;
+
+  > .image {
+    width: 163px;
+    height: 227px;
+    background-color: lemonchiffon;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+
+    > img {
+      transition: transform 0.3s ease-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  > .info {
+    width: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    padding: 10px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    > .name {
+      font-size: 14px;
+      color: whitesmoke;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+}

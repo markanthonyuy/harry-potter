@@ -1,0 +1,24 @@
+.character {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  > .image {
+    min-width: 163px;
+    min-height: 227px;
+    background-color: lemonchiffon;
+
+    > img {
+      border-radius: 5px;
+    }
+  }
+
+  > .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+  }
+}
